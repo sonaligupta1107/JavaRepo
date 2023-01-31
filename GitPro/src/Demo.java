@@ -1,12 +1,14 @@
 import pack1.MyInterface;
-import pack1.someClass;
+
 
 public class Demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		MyInterface i=someClass.getMyInterface();		
+		MyInterface i=()->{
+		System.out.println("inside lambda");	
+		}	;
 		i.disp();
 		
 		
