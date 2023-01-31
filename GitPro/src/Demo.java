@@ -1,12 +1,14 @@
-import pack1.MyInterfaceImpl;
+import pack1.MyInterface;
+import pack1.someClass;
 
 public class Demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		MyInterfaceImpl i=new MyInterfaceImpl();
+		MyInterface i=someClass.getMyInterface();		
 		i.disp();
+		
 		
 	}
 
